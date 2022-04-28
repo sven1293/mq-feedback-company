@@ -388,7 +388,7 @@
 		 */
 		function get_widget_productsummary($product_id, $product_name, $product_url, $product_image_url)
 		{
-			// Hier haalt hij de score op en hoeveel reviews
+			// Ophalen score en reviews
 			$pe_id = get_post_meta( get_the_id(), 'feedback_company_id', true );
 			$url_params = array('product_external_id' => $pe_id);
 			$template_params = array('product_name' => $product_name, 'product_url' => $product_url, 'product_image_url' => $product_image_url);
@@ -402,7 +402,7 @@
 		 */
 		function get_widget_productextended($product_id, $product_name, $product_url, $product_image_url)
 		{
-			// Hier haalt hij de review comments op zodat als je op de sterren klikt dat hij dan een popup opent
+			// Ophalen van comments van review
 			$pe_id = get_post_meta( get_the_id(), 'feedback_company_id', true );
 			$url_params = array('product_external_id' => $pe_id);
 			$template_params = array('product_name' => $product_name, 'product_url' => $product_url, 'product_image_url' => $product_image_url);
