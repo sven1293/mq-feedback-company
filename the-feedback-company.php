@@ -1,11 +1,11 @@
 <?php
 /*
 
-Plugin Name:	Feedback Company
+Plugin Name:	mq Feedback Company
 Plugin URI:	https://feedbackcompany.com/
 Description:	Integrates Feedback Company widgets, order registrations and product reviews in Wordpress/WooCommerce
 Version:	3.2
-Author:		Feedback Company
+Author:		Markethinq
 Author URI:	https://www.feedbackcompany.com/
 License:	GPL2
 
